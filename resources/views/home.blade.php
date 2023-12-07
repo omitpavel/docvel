@@ -1,7 +1,7 @@
 @extends('layouts.app')
-
+@section('title', __('Dashboard'))
 @section('content')
-<div class="container">
+<div class="container-xxl flex-grow-1 container-p-y">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

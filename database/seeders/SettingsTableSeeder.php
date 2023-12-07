@@ -23,6 +23,8 @@ class SettingsTableSeeder extends Seeder
             ['key' => 'login_cover_image', 'value' => 'cover.svg'],
             ['key' => 'favicon', 'value' => 'favicon.ico'],
             ['key' => 'style', 'value' => 'dark'],
+            ['key' => 'first_visit', 'value' => 500],
+            ['key' => 'return_visit', 'value' => 300],
         ];
         DB::table('settings')->insert($data);
     }
